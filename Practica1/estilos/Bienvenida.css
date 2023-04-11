@@ -1,0 +1,42 @@
+body{
+    
+    background-image:url("imgfondo.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Bienbenida{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 1000px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    display: grid;
+    place-items: center ;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.anima{
+    width: 35ch;
+    animation: typing 2s steps(60), blink .5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 50px;
+
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
